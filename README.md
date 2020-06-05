@@ -1,8 +1,6 @@
 # CarBrandsHangman
 This project is a hangman game of car brands that is played in a Python console.
-Each game, a car brand is selected randomly from text file that is used as a database.
-The player can select the number of guesses he can guess.
-The minimun number is the number of characters of the car brand that was selected.
-The maximum number is 26.
-The player can guess either a letter or the entire car brand.
-The player win if he succeeds to guess the car brand in the number of guesses that was selected in the beginning.
+The game chooses a random car brand from text file that is used as the database and prints asterisks instead of its letters.
+The player needs to guess letters until the car brand is revealed.
+The player's goal is to reveale the car brand with 5 or fewer missed guesses.
+In the end, the game prints if the player won or lost, the number of seconds it took, and the number of missed guesses.
