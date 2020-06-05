@@ -10,11 +10,6 @@ f=open('carBrandsList.txt','r')
 brands=f.readlines()
 word=random.choice(brands)
 word=word[:len(word)-1].upper()
-#tries=input('PLEASE ENTER THE NUMBER OF GUESSES ('+str(len(word))+'-26): ')
-#while not tries.isnumeric() or int(tries)<len(word) or int(tries)>26:
-#    print('NUMBER OF GUESSES IS ILLEGAL')
-#    tries=input('PLEASE ENTER THE NUMBER OF GUESSES: ')
-#tries=int(tries)
 tries=6
 tl=[' ']
 w=False
